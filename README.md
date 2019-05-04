@@ -1,2 +1,2 @@
-# puma
-Script for PuMA Collaboration (http://puma.iar.unlp.edu.ar/)
+# PuMA
+Scripts for PuMA Collaboration (http://puma.iar.unlp.edu.ar/)
