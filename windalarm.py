@@ -43,7 +43,7 @@ while(True):
 	wind  = lines.split('\n')[8]
 	value = int(wind.split()[2])
 
-	if value>22:
+	if value>25:
 		print(CRED+'\r{0}   -   ATTENTION HIGH WIND!!!            '.format(wind)+CEND,end='')
 		if(sound): os.system('spd-say "ATTENTION PLEASE: WIND IS ABOVE 25 KILOMETERS PER HOUR"')
 	else:
