@@ -100,7 +100,7 @@ while running:
 			lbl['text']="{0}   -   WIND IS FINE   ".format(wind)
 			lbl['fg']="white"
 			lbl['bg']="black"
-			
+
 	bar['value'] = float(interval*100.)/refresh_every_sec
 	time.sleep(1.0)
 	window.update()
